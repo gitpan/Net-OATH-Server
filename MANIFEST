@@ -10,7 +10,9 @@ lib/Net/OATH/Server/Lite/DataHandler.pm
 lib/Net/OATH/Server/Lite/Endpoint/Login.pm
 lib/Net/OATH/Server/Lite/Endpoint/User.pm
 lib/Net/OATH/Server/Lite/Error.pm
+lib/Net/OATH/Server/Lite/Login.pm
 lib/Net/OATH/Server/Lite/Model/User.pm
+lib/Net/OATH/Server/Lite/User.pm
 minil.toml
 t/00_compile.t
 t/01_unit/lib/Net/OATH/Server/Lite/DataHandler.t

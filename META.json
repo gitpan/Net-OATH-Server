@@ -4,7 +4,7 @@
       "ritou <ritou.06@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.1.1",
+   "generated_by" : "Minilla/v2.2.0",
    "license" : [
       "perl_5"
    ],
@@ -62,7 +62,7 @@
    "provides" : {
       "Net::OATH::Server" : {
          "file" : "lib/Net/OATH/Server.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Net::OATH::Server::Lite" : {
          "file" : "lib/Net/OATH/Server/Lite.pm"
@@ -79,8 +79,14 @@
       "Net::OATH::Server::Lite::Error" : {
          "file" : "lib/Net/OATH/Server/Lite/Error.pm"
       },
+      "Net::OATH::Server::Lite::Login" : {
+         "file" : "lib/Net/OATH/Server/Lite/Login.pm"
+      },
       "Net::OATH::Server::Lite::Model::User" : {
          "file" : "lib/Net/OATH/Server/Lite/Model/User.pm"
+      },
+      "Net::OATH::Server::Lite::User" : {
+         "file" : "lib/Net/OATH/Server/Lite/User.pm"
       }
    },
    "release_status" : "stable",
@@ -94,5 +100,5 @@
          "web" : "https://github.com/ritou/p5-net-oath-server"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
